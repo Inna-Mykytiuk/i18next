@@ -1,10 +1,12 @@
-import React from 'react'
+'use client'
 
-export default async function ExampleClientComponent() {
+export default function ExampleClientComponent() {
+  const userName = "Tokio";
+
   return (
-    <div>
-      sdasda
-    </div>
+    <h3>
+      Have a great day, {userName}!
+    </h3>
   )
 }
 
